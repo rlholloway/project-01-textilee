@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap"
+        rel="stylesheet">
     <title>Blog</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    
+    <!-- HEADER -->
+    <header>
+        <div>
+            <nav class="home-nav">
+                <div class="logo">
+                    <a href="#logo">Textilee</a>
+                </div>
+                <ul class="nav1">
+                    <li><a href="#home"></a>Home</li>
+                    <li><a href="#about"></a>About</li>
+                    <li><a href="#blog"></a>Blog</li>
+                    <li><a href="#contact"></a>Contact</li>
+                </ul>
+            </nav>
+        </div>
+
+        <h1>Blog</h1>
+    </header>
+    <!-- END OF HEADER -->
+    <!-- MAIN -->
+    <main>
+        <!-- FIRST SECTION -->
+        <section>
+            <div class="collection">
+                <div class="collection-pic">
+                    <img src="./textilee-assets/blog-post-image.jpg" alt="Folded linens in shades of blue and mauve">
+                </div>
+                <div class="collection-text">
+                    <h2>Our new collection</h2>
+                    <h3>Monday, October 5th, 2019 by Saron</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat facere labore repellat
+                        consequatur vero excepturi assumenda nesciunt saepe quibusdam aliquam iure at provident corrupti
+                        distinctio illum beatae itaque, illo asperiores, animi quos quis officia sapiente obcaecati.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque optio doloremque qui
+                        ipsam laudantium blanditiis fuga aut? Atque molestiae dolore sunt voluptates similique
+                        asperiores ad consectetur, aliquam numquam! Quaerat reiciendis dicta doloremque quas eligendi
+                        est harum neque dolorem autem sapiente labore rerum, libero numquam?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis explicabo facere quam
+                        omnis incidunt quo sint nobis totam minus laudantium unde quasi delectus quis nostrum cum
+                        eveniet, cupiditate debitis earum aliquam ipsa dicta repellat exercitationem praesentium at?
+                        Facilis, dolorem nisi? Repellat accusamus, ipsam similique fugit, velit aperiam eligendi laborum
+                        aliquid voluptate, alias minima porro voluptates rem. Reprehenderit autem a rem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugit alias saepe nemo
+                        excepturi vero adipisci nostrum minima? Ipsa accusantium nam aspernatur minima.</p>
+                </div>
+            </div>
+
+            <aside>
+                <div class="aside-pic">
+                    <img src="./textilee-assets/sidebar-image.jpg" alt="Many rolls of white fabric stacked toegther">
+                </div>
+                <div class="mission">
+                    <h4>Our mission</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed modi reiciendis.</p>
+                    <a href="#">Find out more.</a>
+                </div>
+                <div class="recent">
+                    <ul>
+                        <li><a href="#">Donec facilisis tortor ut</a></li>
+                        <li><a href="#">Augue lacinia at viverra</a></li>
+                        <li><a href="#">Semper sed sapien metus</a></li>
+                        <li><a href="#">Scelerisque nec pharetra</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+        <!-- END OF FIRST SECTION -->
+        <!-- SECOND SECTION -->
+        <!-- NEED TO HIDE ALT TEXT FOR PICS -->
+        <section>
+            <h4>Comments:</h4>
+            <div class="comment1">
+                <div class="comment-pic">
+                    <img src="./textilee-assets/comment-1.jpg" alt="">
+                </div>
+                <div class="comment-text">
+                    <h5>Tuesday December 9th, 2019 by Louise</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum omnis magni doloribus consectetur, a animi maxime rem exercitationem fugiat ratione beatae nostrum eos atque enim quod? Consequuntur, odio expedita! Itaque, error.</p>
+                </div>
+            </div>
+
+            <div class="comment2">
+                <div class="comment-pic">
+                    <img src="./textilee-assets/comment-2.jpg" alt="">
+                </div>
+                <div class="comment-text">
+                    <h5>Wednesday December 10th, 2019 by JP</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi impedit earum nesciunt dicta dolorem? Dolorem, aspernatur eos!</p>
+                </div>
+            </div>
+
+            <fieldset>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+
+                <label for="email">Email address</label>
+                <input type="email" id="email">
+
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                <button>post comment</button>
+            </fieldset>
+        </section>
+        <!-- END OF SECOND SECTION -->
+    </main>
+    <!-- END OF MAIN -->
+    <!-- FOOTER -->
+    <footer>
+        <p>Copyright © 2019 Juno College</p>
+    </footer>
+
+    <!-- END OF FOOTER -->
+
 </body>
+
 </html>
