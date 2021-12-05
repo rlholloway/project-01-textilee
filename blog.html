@@ -15,28 +15,30 @@
 
 <body>
     <!-- HEADER -->
-    <header>
-        <div>
-            <nav class="home-nav">
-                <div class="logo">
-                    <a href="#logo">Textilee</a>
-                </div>
-                <ul class="nav1">
-                    <li><a href="#home"></a>Home</li>
-                    <li><a href="#about"></a>About</li>
-                    <li><a href="#blog"></a>Blog</li>
-                    <li><a href="#contact"></a>Contact</li>
-                </ul>
-            </nav>
-        </div>
+    <header class="blog-header">
+        <div class="wrapper">
+            <div>
+                <nav class="nav">
+                    <div class="logo">
+                        <a href="#logo">Textilee</a>
+                    </div>
+                    <ul class="nav2">
+                        <li><a href="#home"></a>Home</li>
+                        <li><a href="#about"></a>About</li>
+                        <li><a href="#blog"></a>Blog</li>
+                        <li><a href="#contact"></a>Contact</li>
+                    </ul>
+                </nav>
+            </div>
 
-        <h1>Blog</h1>
+            <h1>Blog</h1>
+        </div>
     </header>
     <!-- END OF HEADER -->
     <!-- MAIN -->
     <main>
         <!-- FIRST SECTION -->
-        <section>
+        <section class="sect1">
             <div class="collection">
                 <div class="collection-pic">
                     <img src="./textilee-assets/blog-post-image.jpg" alt="Folded linens in shades of blue and mauve">
@@ -61,7 +63,7 @@
                 </div>
             </div>
 
-            <aside>
+            <aside class="blog-aside">
                 <div class="aside-pic">
                     <img src="./textilee-assets/sidebar-image.jpg" alt="Many rolls of white fabric stacked toegther">
                 </div>
@@ -71,6 +73,7 @@
                     <a href="#">Find out more.</a>
                 </div>
                 <div class="recent">
+                    <h4>Recent Posts</h4>
                     <ul>
                         <li><a href="#">Donec facilisis tortor ut</a></li>
                         <li><a href="#">Augue lacinia at viverra</a></li>
@@ -84,37 +87,44 @@
         <!-- SECOND SECTION -->
         <!-- NEED TO HIDE ALT TEXT FOR PICS -->
         <section>
-            <h4>Comments:</h4>
-            <div class="comment1">
-                <div class="comment-pic">
-                    <img src="./textilee-assets/comment-1.jpg" alt="">
+            <div class="wrapper">
+                <h4>Comments:</h4>
+                <div class="comment1">
+                    <div class="comment-pic">
+                        <img src="./textilee-assets/comment-1.jpg" alt="">
+                    </div>
+                    <div class="comment-text">
+                        <h5>Tuesday December 9th, 2019 by Louise</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum omnis magni
+                            doloribus consectetur, a animi maxime rem exercitationem fugiat ratione beatae nostrum eos
+                            atque
+                            enim quod? Consequuntur, odio expedita! Itaque, error.</p>
+                    </div>
                 </div>
-                <div class="comment-text">
-                    <h5>Tuesday December 9th, 2019 by Louise</h5>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum omnis magni doloribus consectetur, a animi maxime rem exercitationem fugiat ratione beatae nostrum eos atque enim quod? Consequuntur, odio expedita! Itaque, error.</p>
+
+                <div class="comment2">
+                    <div class="comment-pic">
+                        <img src="./textilee-assets/comment-2.jpg" alt="">
+                    </div>
+                    <div class="comment-text">
+                        <h5>Wednesday December 10th, 2019 by JP</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi impedit earum
+                            nesciunt
+                            dicta dolorem? Dolorem, aspernatur eos!</p>
+                    </div>
                 </div>
+
+                <fieldset class="comment-box">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email address</label>
+                    <input type="email" id="email">
+
+                    <textarea name="comment" id="comment" cols="30" rows="10">Comment</textarea>
+                    <button>post comment</button>
+                </fieldset>
             </div>
-
-            <div class="comment2">
-                <div class="comment-pic">
-                    <img src="./textilee-assets/comment-2.jpg" alt="">
-                </div>
-                <div class="comment-text">
-                    <h5>Wednesday December 10th, 2019 by JP</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi impedit earum nesciunt dicta dolorem? Dolorem, aspernatur eos!</p>
-                </div>
-            </div>
-
-            <fieldset>
-                <label for="name">Name</label>
-                <input type="text" id="name">
-
-                <label for="email">Email address</label>
-                <input type="email" id="email">
-
-                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-                <button>post comment</button>
-            </fieldset>
         </section>
         <!-- END OF SECOND SECTION -->
     </main>
@@ -123,9 +133,7 @@
     <footer>
         <p>Copyright © 2019 Juno College</p>
     </footer>
-
     <!-- END OF FOOTER -->
-
 </body>
 
 </html>
