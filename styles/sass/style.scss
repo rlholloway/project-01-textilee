@@ -1,5 +1,26 @@
 $primary: #CCEDFB;
-$secondary: #1A315C;
+$secondary: rgb(40, 63, 77);
 $baseFont: "Pacifico", cursive;
 
 @import "normalize";
+@import "typography";
+@import "nav";
+
+.home-header {
+    background-image: url(../assets/header-home.jpg);
+    height: 106vh;
+}
+
+.blog-header {
+    background-image: url(../assets/blog-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 73vh;
+}
+
+.contact-header {
+    background-image: url(../assets/contact-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 74vh;
+}

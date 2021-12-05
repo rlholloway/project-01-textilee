@@ -234,3 +234,153 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 125%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #1A315C;
+  background-color: #CCEDFB;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Pacifico", cursive;
+  font-weight: normal;
+  color: #1A315C;
+}
+
+h1 {
+  font-size: 3.4rem;
+  line-height: 64px;
+}
+
+.home-header h1 {
+  font-size: 2.9rem;
+  line-height: 68px;
+}
+
+h2 {
+  font-size: 2.1rem;
+  line-height: 58px;
+  letter-spacing: 2.7px;
+}
+
+h3,
+h4 {
+  font-size: 2rem;
+  line-height: 58px;
+  letter-spacing: 2.5px;
+}
+
+button,
+.dark-button {
+  font-family: "Pacifico", cursive;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 1.4px;
+  background-color: #1A315C;
+  color: #FFF;
+  border: none;
+  margin: 0;
+  padding: 6px 35px;
+}
+button:hover,
+.dark-button:hover {
+  background-color: #FFF;
+  color: #1A315C;
+}
+
+.pale-button {
+  background-color: #c5d4f4;
+  color: #1A315C;
+}
+.pale-button:hover {
+  background-color: #FFF;
+}
+
+footer {
+  background-color: #161515;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+footer p {
+  color: #FFF;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.8px;
+  margin: 5px;
+}
+
+nav {
+  width: 100%;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav .logo {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 1.7px;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0;
+  width: 100%;
+}
+nav li {
+  text-transform: uppercase;
+  list-style: none;
+  margin: 0 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #1E1713;
+}
+
+li:hover,
+.logo:hover {
+  border-bottom: 2px solid #0CADC0;
+}
+
+.home-header {
+  background-image: url(../assets/header-home.jpg);
+  height: 106vh;
+}
+
+.blog-header {
+  background-image: url(../assets/blog-header.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 73vh;
+}
+
+.contact-header {
+  background-image: url(../assets/contact-header.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 74vh;
+}

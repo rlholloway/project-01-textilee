@@ -1,0 +1,98 @@
+// GENERAL SETUP STYLES 
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 125%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #1A315C;
+    background-color: $primary;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+// HEADERS AND TEXT
+h1,
+h2,
+h3 {
+    font-family: $baseFont;
+    font-weight: normal;
+    color: #1A315C;;
+}
+
+h1 {
+    font-size: 3.4rem;
+    line-height: 64px;
+}
+
+.home-header h1 {
+    font-size: 2.9rem;
+    line-height: 68px;
+}
+
+h2 {
+    font-size: 2.1rem;
+    line-height: 58px;
+    letter-spacing: 2.7px;
+}
+
+.collection-text {
+    // color: #FFF;
+}
+
+h3,
+h4 {
+    font-size: 2rem;
+    line-height: 58px;
+    letter-spacing: 2.5px;
+    // color: #FFF;
+}
+
+button,
+.dark-button {
+    font-family: $baseFont;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 1.4px;
+    background-color: #1A315C;
+    color: #FFF;
+    border: none;
+    margin: 0;
+    padding: 6px 35px;
+
+    &:hover {
+        background-color: #FFF;
+        color: #1A315C;
+    }
+}
+
+.pale-button {
+    background-color: rgb(197, 212, 244);
+    color: #1A315C;
+
+    &:hover {
+        background-color: #FFF;
+    }
+}
+footer {
+    background-color: #161515;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    p {
+        color: #FFF;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        letter-spacing: 1.8px;
+        margin: 5px;
+    }
+}
