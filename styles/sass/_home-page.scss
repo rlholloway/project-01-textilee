@@ -1,0 +1,157 @@
+// FIRST SECTION
+.learn-box {
+    width: 100%;
+    padding: 15% 0 5% 0;
+    display: flex;
+    align-items: center;
+}
+
+.learn-text {
+    width: 70%;
+    margin-right: 8%;
+
+    h2 {
+        margin-bottom: 15px;
+    }
+    
+    p {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+}
+// END OF FIRST SECTION
+// GALLERY
+.learn-pic img {
+        width: 260px;
+        box-shadow: -14px 14px $turquoise;
+}
+
+.gallery {
+    background-color: $dark-green;
+    padding: 5% 0;
+}
+
+.gallery-box {
+    display: flex;
+
+    img {
+        margin: 12px;
+        width: calc(100% / 3 - 24px);
+    }
+}
+// END OF GALLERY
+// THIRD SECTION
+.boxes {
+    padding: 4% 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    position: relative;
+    width:calc(100% / 2);
+
+    a {
+        text-decoration: none;
+    }
+
+    h2:hover {
+        color: $turquoise;
+    }
+}
+
+.icon-box {
+    position: absolute;
+    top: 52px;
+    left: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    background-color: $turquoise;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+// END OF THIRD SECTION
+// FOURTH SECTION
+.bottom-section {
+    background-color: $dark-green;
+}
+
+.bottom-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pink-silk,
+.yellow-tape,
+.discover,
+.locations {
+    width: 45%;
+
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        padding-top: 5px;
+        margin: 5px 0;
+    }
+}
+
+.discover {
+    align-self: flex-end;
+    padding: 40px 0 110px 0;
+
+    p {
+    color: $white;
+    margin: 5px 74px 14px 0;
+    }
+}
+
+.locations {
+    text-align: end;
+    padding: 40px 0 80px 0;
+
+    p {
+    color: $white;
+    margin: 5px 0px 14px 74px;
+    } 
+}
+
+.pink-silk {
+    position: relative;
+
+    img {
+        position: absolute;
+        top: -60px;
+        box-shadow: 20px 20px $turquoise;
+    }
+}
+
+.yellow-tape {
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 20px;
+        box-shadow: -20px 20px $turquoise;
+    }
+}
+// END OF FOURTH SECTION
+// FIFTH SECTION
+.bottom-home {
+    padding: 30px 0 100px 0;
+    text-align: center;
+
+    h3 {
+        color: $dark-blue;
+        margin-bottom: 5px;
+    }
+
+    button {
+        margin : 25px;
+    }
+}

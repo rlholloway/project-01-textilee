@@ -6,29 +6,27 @@ html {
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: $p-font;
     line-height: 28px;
     letter-spacing: 2px;
-    color: #1A315C;
-    background-color: $primary;
+    color: $black;
+    background-color: $pale-blue;
 }
 
 .wrapper {
-    max-width: 1200px;
-    width: 90%;
+    max-width: 1080px;
+    width: 80%;
     margin: 0 auto;
 }
 
-// HEADERS AND TEXT
+// HEADERS AND TEXT BASICS
 h1,
 h2,
-h3 {
-    font-family: $baseFont;
+h3,
+h4 {
+    font-family: $main-font;
     font-weight: normal;
-    color: #1A315C;;
-}
-
-h1 {
+    color: $dark-blue;
     font-size: 3.4rem;
     line-height: 64px;
 }
@@ -36,61 +34,64 @@ h1 {
 .home-header h1 {
     font-size: 2.9rem;
     line-height: 68px;
+    width: 60%;
+    margin: 7% 0;
 }
 
 h2 {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     line-height: 58px;
     letter-spacing: 2.7px;
 }
 
-.collection-text {
-    // color: #FFF;
+.collection h2 {
+    color: $white;
 }
 
 h3,
-h4 {
+.bottom-boxes h2 {
     font-size: 2rem;
     line-height: 58px;
     letter-spacing: 2.5px;
-    // color: #FFF;
+    color: $white;
 }
 
 button,
 .dark-button {
-    font-family: $baseFont;
+    font-family: $main-font;
     font-size: 1.3rem;
     text-align: center;
     line-height: 32px;
     letter-spacing: 1.4px;
-    background-color: #1A315C;
-    color: #FFF;
+    background-color: $dark-blue;
+    color: $white;
     border: none;
     margin: 0;
     padding: 6px 35px;
 
     &:hover {
-        background-color: #FFF;
-        color: #1A315C;
+        background-color: $white;
+        color: $dark-blue;
     }
 }
 
 .pale-button {
     background-color: rgb(197, 212, 244);
-    color: #1A315C;
+    color: $dark-blue;
 
     &:hover {
-        background-color: #FFF;
+        background-color: $white;
     }
 }
 footer {
-    background-color: #161515;
+    background-color: $black;
     text-align: center;
     margin: 0;
     padding: 10px;
+    
     p {
-        color: #FFF;
-        font-family: "Lato", sans-serif;
+        color: $white;
+        font-family: $p-font;
         font-weight: bold;
         letter-spacing: 1.8px;
         margin: 5px;

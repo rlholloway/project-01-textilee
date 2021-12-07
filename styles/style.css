@@ -245,25 +245,23 @@ body {
   font-family: "Lato", sans-serif;
   line-height: 28px;
   letter-spacing: 2px;
-  color: #1A315C;
+  color: #1E1713;
   background-color: #CCEDFB;
 }
 
 .wrapper {
-  max-width: 1200px;
-  width: 90%;
+  max-width: 1080px;
+  width: 80%;
   margin: 0 auto;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Pacifico", cursive;
   font-weight: normal;
   color: #1A315C;
-}
-
-h1 {
   font-size: 3.4rem;
   line-height: 64px;
 }
@@ -271,19 +269,26 @@ h1 {
 .home-header h1 {
   font-size: 2.9rem;
   line-height: 68px;
+  width: 60%;
+  margin: 7% 0;
 }
 
 h2 {
-  font-size: 2.1rem;
+  font-size: 2.2rem;
   line-height: 58px;
   letter-spacing: 2.7px;
 }
 
+.collection h2 {
+  color: #FFF;
+}
+
 h3,
-h4 {
+.bottom-boxes h2 {
   font-size: 2rem;
   line-height: 58px;
   letter-spacing: 2.5px;
+  color: #FFF;
 }
 
 button,
@@ -314,7 +319,7 @@ button:hover,
 }
 
 footer {
-  background-color: #161515;
+  background-color: #1E1713;
   text-align: center;
   margin: 0;
   padding: 10px;
@@ -355,6 +360,7 @@ nav li {
   text-transform: uppercase;
   list-style: none;
   margin: 0 20px;
+  color: #1A315C;
 }
 nav a {
   text-decoration: none;
@@ -364,6 +370,176 @@ nav a {
 li:hover,
 .logo:hover {
   border-bottom: 2px solid #0CADC0;
+}
+
+.learn-box {
+  width: 100%;
+  padding: 15% 0 5% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.learn-text {
+  width: 70%;
+  margin-right: 8%;
+}
+.learn-text h2 {
+  margin-bottom: 15px;
+}
+.learn-text p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.learn-pic img {
+  width: 260px;
+  -webkit-box-shadow: -14px 14px #0CADC0;
+          box-shadow: -14px 14px #0CADC0;
+}
+
+.gallery {
+  background-color: #283f4d;
+  padding: 5% 0;
+}
+
+.gallery-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.gallery-box img {
+  margin: 12px;
+  width: calc(100% / 3 - 24px);
+}
+
+.boxes {
+  padding: 4% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box {
+  position: relative;
+  width: calc(100% / 2);
+}
+.box a {
+  text-decoration: none;
+}
+.box h2:hover {
+  color: #0CADC0;
+}
+
+.icon-box {
+  position: absolute;
+  top: 52px;
+  left: -40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFF;
+  background-color: #0CADC0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.bottom-section {
+  background-color: #283f4d;
+}
+
+.bottom-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pink-silk,
+.yellow-tape,
+.discover,
+.locations {
+  width: 45%;
+}
+.pink-silk img,
+.yellow-tape img,
+.discover img,
+.locations img {
+  width: 100%;
+}
+.pink-silk h3,
+.yellow-tape h3,
+.discover h3,
+.locations h3 {
+  padding-top: 5px;
+  margin: 5px 0;
+}
+
+.discover {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 40px 0 110px 0;
+}
+.discover p {
+  color: #FFF;
+  margin: 5px 74px 14px 0;
+}
+
+.locations {
+  text-align: end;
+  padding: 40px 0 80px 0;
+}
+.locations p {
+  color: #FFF;
+  margin: 5px 0px 14px 74px;
+}
+
+.pink-silk {
+  position: relative;
+}
+.pink-silk img {
+  position: absolute;
+  top: -60px;
+  -webkit-box-shadow: 20px 20px #0CADC0;
+          box-shadow: 20px 20px #0CADC0;
+}
+
+.yellow-tape {
+  position: relative;
+}
+.yellow-tape img {
+  position: absolute;
+  top: 20px;
+  -webkit-box-shadow: -20px 20px #0CADC0;
+          box-shadow: -20px 20px #0CADC0;
+}
+
+.bottom-home {
+  padding: 30px 0 100px 0;
+  text-align: center;
+}
+.bottom-home h3 {
+  color: #1A315C;
+  margin-bottom: 5px;
+}
+.bottom-home button {
+  margin: 25px;
 }
 
 .home-header {

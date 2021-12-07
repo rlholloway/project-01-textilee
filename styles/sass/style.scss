@@ -1,10 +1,16 @@
-$primary: #CCEDFB;
-$secondary: rgb(40, 63, 77);
-$baseFont: "Pacifico", cursive;
+$pale-blue: #CCEDFB;
+$dark-green: rgb(40, 63, 77);
+$turquoise: #0CADC0;
+$dark-blue: #1A315C;
+$black: #1E1713;
+$white: #FFF;
+$main-font: "Pacifico", cursive;
+$p-font: "Lato", sans-serif;
 
 @import "normalize";
 @import "typography";
 @import "nav";
+@import "home-page";
 
 .home-header {
     background-image: url(../assets/header-home.jpg);
