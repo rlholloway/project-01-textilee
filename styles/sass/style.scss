@@ -11,6 +11,8 @@ $p-font: "Lato", sans-serif;
 @import "typography";
 @import "nav";
 @import "home-page";
+@import "blog-page";
+@import "forms";
 
 .home-header {
     background-image: url(../assets/header-home.jpg);
@@ -19,7 +21,7 @@ $p-font: "Lato", sans-serif;
 
 .blog-header {
     background-image: url(../assets/blog-header.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 73vh;
 }

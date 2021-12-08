@@ -360,14 +360,13 @@ nav li {
   text-transform: uppercase;
   list-style: none;
   margin: 0 20px;
-  color: #1A315C;
 }
 nav a {
   text-decoration: none;
   color: #1E1713;
 }
 
-li:hover,
+nav li:hover,
 .logo:hover {
   border-bottom: 2px solid #0CADC0;
 }
@@ -542,6 +541,186 @@ li:hover,
   margin: 25px;
 }
 
+.sect1 {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collection {
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.collection-pic {
+  width: 100%;
+  position: relative;
+}
+.collection-pic img {
+  width: 100%;
+  position: absolute;
+  top: -150px;
+  -webkit-box-shadow: 16px 16px #0CADC0;
+          box-shadow: 16px 16px #0CADC0;
+}
+
+.collection-text {
+  background-color: #283f4d;
+  color: #FFF;
+  width: 102%;
+  margin-top: 300px;
+  padding: 90px 40px 60px 120px;
+  border-right: 11px solid #0CADC0;
+  border-bottom: 11px solid #0CADC0;
+}
+.collection-text h2 {
+  margin: 0;
+  padding-top: 30px;
+}
+
+.date {
+  color: #CCEDFB;
+  margin: 6px 0;
+}
+
+aside {
+  background-color: #283f4d;
+  color: #FFF;
+  border-left: 10px solid #283f4d;
+  width: 30%;
+  margin: 300px 0 350px 0;
+}
+
+.aside-pic {
+  width: 420px;
+  height: 200px;
+  position: relative;
+}
+.aside-pic img {
+  width: 100%;
+  position: absolute;
+  bottom: -50px;
+  -webkit-box-shadow: -10px 10px #283f4d;
+          box-shadow: -10px 10px #283f4d;
+}
+
+.aside-text {
+  padding-top: 35px;
+  padding-left: 12px;
+}
+.aside-text h3 {
+  margin: 0;
+  padding-top: 30px;
+}
+.aside-text p,
+.aside-text ul {
+  margin: 2px;
+}
+.aside-text a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.mission a:hover,
+.recent a:hover {
+  color: #CCEDFB;
+}
+
+.comment-section {
+  width: 60%;
+  padding: 0 0 80px 0;
+}
+.comment-section h3 {
+  margin: 5px;
+  color: #1E1713;
+}
+
+.comment1,
+.comment2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0 70px 0;
+}
+.comment1 img,
+.comment2 img {
+  margin: 10px 40px 10px 0;
+}
+.comment1 p,
+.comment2 p {
+  margin: 2px;
+}
+
+.comment-text p:first-child {
+  color: #1A315C;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.comment-box {
+  color: #1A315C;
+  width: 100%;
+  padding: 0;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.comment-box textarea {
+  color: #1A315C;
+  background-color: #CCEDFB;
+  border: 2px solid #0CADC0;
+  resize: none;
+  margin: 30px 0;
+  padding: 30px 0 0 30px;
+}
+.comment-box button {
+  width: 100%;
+  margin: 10px 0;
+  padding-bottom: 10px;
+}
+
+.name-box,
+.email-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 47%;
+}
+.name-box label,
+.email-box label {
+  margin: 10px 0 0 15px;
+}
+.name-box input,
+.email-box input {
+  background-color: #CCEDFB;
+  border: none;
+  border-bottom: 2px solid #0CADC0;
+}
+
 .home-header {
   background-image: url(../assets/header-home.jpg);
   height: 106vh;
@@ -549,7 +728,7 @@ li:hover,
 
 .blog-header {
   background-image: url(../assets/blog-header.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 73vh;
 }

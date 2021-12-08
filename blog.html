@@ -43,9 +43,9 @@
                 <div class="collection-pic">
                     <img src="./assets/blog-post-image.jpg" alt="Folded linens in shades of blue and mauve">
                 </div>
-                <div class="collection-text">
+                <div class="collection-text wrapper">
                     <h2>Our new collection</h2>
-                    <p>Monday, October 5th, 2019 by Saron</p>
+                    <p class="date">Monday, October 5th, 2019 by Saron</p>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat facere labore repellat
                         consequatur vero excepturi assumenda nesciunt saepe quibusdam aliquam iure at provident corrupti
                         distinctio illum beatae itaque, illo asperiores, animi quos quis officia sapiente obcaecati.</p>
@@ -67,44 +67,46 @@
                 <div class="aside-pic">
                     <img src="./assets/sidebar-image.jpg" alt="Many rolls of white fabric stacked toegther">
                 </div>
-                <div class="mission">
-                    <h3>Our mission</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed modi reiciendis.</p>
-                    <a href="#">Find out more.</a>
-                </div>
-                <div class="recent">
-                    <h3>Recent Posts</h3>
-                    <ul>
-                        <li><a href="#">Donec facilisis tortor ut</a></li>
-                        <li><a href="#">Augue lacinia at viverra</a></li>
-                        <li><a href="#">Semper sed sapien metus</a></li>
-                        <li><a href="#">Scelerisque nec pharetra</a></li>
-                    </ul>
+                <div class="aside-text">
+                    <div class="mission">
+                        <h3>Our mission</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed modi reiciendis.</p>
+                        <a href="#">Find out more.</a>
+                    </div>
+                    <div class="recent">
+                        <h3>Recent Posts</h3>
+                        <ul>
+                            <li><a href="#">Donec facilisis tortor ut</a></li>
+                            <li><a href="#">Augue lacinia at viverra</a></li>
+                            <li><a href="#">Semper sed sapien metus</a></li>
+                            <li><a href="#">Scelerisque nec pharetra</a></li>
+                        </ul>
+                    </div>
                 </div>
             </aside>
         </section>
         <!-- END OF FIRST SECTION -->
         <!-- SECOND SECTION -->
-        <!-- NEED TO HIDE ALT TEXT FOR PICS -->
         <section>
+            <div class="comment-section">
             <div class="wrapper">
                 <h3>Comments:</h3>
                 <div class="comment1">
                     <div class="comment-pic">
-                        <img src="./assets/comment-1.jpg" alt="">
+                        <img src="./assets/comment-1.jpg" alt="#" aria-hidden="true">
                     </div>
                     <div class="comment-text">
                         <p>Tuesday December 9th, 2019 by Louise</p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum omnis magni
                             doloribus consectetur, a animi maxime rem exercitationem fugiat ratione beatae nostrum eos
                             atque
-                            enim quod? Consequuntur, odio expedita! Itaque, error.</p>
+                            enim quod?</p>
                     </div>
                 </div>
 
                 <div class="comment2">
                     <div class="comment-pic">
-                        <img src="./assets/comment-2.jpg" alt="">
+                        <img src="./assets/comment-2.jpg" alt="#" aria-hidden="true">
                     </div>
                     <div class="comment-text">
                         <p>Wednesday December 10th, 2019 by JP</p>
@@ -115,16 +117,21 @@
                 </div>
 
                 <fieldset class="comment-box">
+                    <div class="name-box">
                     <label for="name">Name</label>
                     <input type="text" id="name">
+                    </div>
 
+                    <div class="email-box">
                     <label for="email">Email address</label>
                     <input type="email" id="email">
+                    </div>
 
-                    <textarea name="comment" id="comment" cols="30" rows="10">Comment</textarea>
+                    <textarea name="comment" id="comment" cols="75" rows="10">Comment</textarea>
                     <button class="dark-button">post comment</button>
                 </fieldset>
             </div>
+            
         </section>
         <!-- END OF SECOND SECTION -->
     </main>
