@@ -43,6 +43,7 @@
 // THIRD SECTION
 .boxes {
     padding: 4% 0;
+    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -142,6 +143,11 @@
 }
 // END OF FOURTH SECTION
 // FIFTH SECTION
+.banner {
+    height: 60vh;
+    background-image: url(../../project-01/assets/banner.jpg);
+}
+
 .bottom-home {
     padding: 30px 0 100px 0;
     text-align: center;

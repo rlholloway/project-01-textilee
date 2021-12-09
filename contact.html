@@ -24,10 +24,10 @@
                         <a href="#logo">Textilee</a>
                     </div>
                     <ul class="nav3">
-                        <li><a href="#home"></a>Home</li>
-                        <li><a href="#about"></a>About</li>
-                        <li><a href="#blog"></a>Blog</li>
-                        <li><a href="#contact"></a>Contact</li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -39,33 +39,39 @@
     <!-- MAIN -->
     <main>
         <!-- CONTACT SECTION -->
-        <section>
-            <div class="wrapper">
-                <div class="container">
+        <section class="contact-section">
+            <div class="container">
+                <div class="sub-container">
                     <fieldset class="submit-box">
-                        <label for="name">Name</label>
-                        <input type="text" id="name">
+                        <div class="name-box2">
+                            <label for="name">Name</label>
+                            <input type="text" id="name">
+                        </div>
 
-                        <label for="email">Email address</label>
-                        <input type="email" id="email">
+                        <div class="email-box2">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email">
+                        </div>
 
-                        <textarea name="comment" id="comment" cols="30" rows="10">Message</textarea>
+                        <textarea name="comment" id="comment" cols="80" rows="10">Message</textarea>
                         <button class="pale-button">submit</button>
                     </fieldset>
-                    <aside class="contact-info">
-                        <div class="icons">
-                            <a href="#facebook"><i class="fa fa-facebook-f"></i></a>
-                            <a href="#instagram"><i class="fa fa-instagram"></i></a>
-                            <a href="#twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#whatsapp"><i class="fa fa-whatsapp"></i></a>
+                </div>
+                <div class="contact-info">
+                    <div class="icons">
+                        <a href="#facebook"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#instagram"><i class="fa fa-instagram"></i></a>
+                        <a href="#twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#whatsapp"><i class="fa fa-whatsapp"></i></a>
+                        <div class="contact-email">
                             <a href="#gmail">info@email.com</a>
                         </div>
-                        <div class="address">
-                            <p>123-456-7890</p>
-                            <p>123 Queen Street West <br>Unit 10 <br>Toronto, Ontario <br>M5V2D5</p>
-                        </div>
-                    </aside>
+                    </div>
+                    <div class="address">
+                        <p>123 - 456 - 7890<br>123 Queen Street West, <br>Unit 10 <br>Toronto, Ontario <br>M5V2D5</p>
+                    </div>
                 </div>
+            </div>
         </section>
         <!-- END OF CONTACT SECTION -->
     </main>

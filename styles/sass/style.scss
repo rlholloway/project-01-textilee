@@ -12,6 +12,7 @@ $p-font: "Lato", sans-serif;
 @import "nav";
 @import "home-page";
 @import "blog-page";
+@import "contact-page";
 @import "forms";
 
 .home-header {
@@ -28,7 +29,7 @@ $p-font: "Lato", sans-serif;
 
 .contact-header {
     background-image: url(../assets/contact-header.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 74vh;
 }

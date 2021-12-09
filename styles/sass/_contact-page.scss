@@ -1,0 +1,57 @@
+// ADJUSTING CONTACT BOX AND INFO DIV
+.contact-section {
+    padding: 50px 0 70px 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 90px 0;
+}
+
+.sub-container {
+    position: relative;
+}
+
+.submit-box {
+    position: absolute;
+    bottom: -40px;
+    left: 50px;
+
+}
+
+.contact-info {
+    width: 22%;
+    margin-right: 35px;
+    padding: 30px;
+    color: $black;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icons a {
+    margin-right: 9%;
+    color: $dark-blue;
+
+    &:last-child {
+        color: $black;
+        text-decoration: none;
+    }
+
+    &:hover {
+        color: $turquoise;
+    }
+}
+
+.fa {
+    font-size: 1.3rem;
+}
+
+.contact-email {
+    margin-top: 5%;
+}
