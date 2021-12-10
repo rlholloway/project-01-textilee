@@ -25,9 +25,9 @@ h2,
 h3,
 h4 {
     font-family: $main-font;
-    font-weight: normal;
-    color: $dark-blue;
     font-size: 3.4rem;
+    color: $dark-blue;
+    font-weight: normal;
     line-height: 64px;
 }
 
@@ -92,13 +92,13 @@ footer {
     background-color: $black;
     text-align: center;
     margin: 0;
-    padding: 10px;
+    padding: 1%;
     
     p {
         color: $white;
         font-family: $p-font;
         font-weight: bold;
         letter-spacing: 1.8px;
-        margin: 5px;
+        margin: 0;
     }
 }

@@ -260,9 +260,9 @@ h2,
 h3,
 h4 {
   font-family: "Pacifico", cursive;
-  font-weight: normal;
-  color: #1A315C;
   font-size: 3.4rem;
+  color: #1A315C;
+  font-weight: normal;
   line-height: 64px;
 }
 
@@ -327,19 +327,19 @@ footer {
   background-color: #1E1713;
   text-align: center;
   margin: 0;
-  padding: 10px;
+  padding: 1%;
 }
 footer p {
   color: #FFF;
   font-family: "Lato", sans-serif;
   font-weight: bold;
   letter-spacing: 1.8px;
-  margin: 5px;
+  margin: 0;
 }
 
 nav {
   width: 100%;
-  padding-top: 20px;
+  padding-top: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -365,6 +365,7 @@ nav li {
   text-transform: uppercase;
   list-style: none;
   margin: 0 20px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
 nav a {
   text-decoration: none;
@@ -392,11 +393,11 @@ nav li:hover,
   margin-right: 8%;
 }
 .learn-text h2 {
-  margin-bottom: 15px;
+  margin-bottom: 3%;
 }
 .learn-text p {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 4%;
 }
 
 .learn-pic img {
@@ -444,7 +445,7 @@ nav li:hover,
 .icon-box {
   position: absolute;
   top: 52px;
-  left: -40px;
+  left: -50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -456,8 +457,8 @@ nav li:hover,
           justify-content: center;
   color: #FFF;
   background-color: #0CADC0;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
@@ -492,27 +493,27 @@ nav li:hover,
 .yellow-tape h3,
 .discover h3,
 .locations h3 {
-  padding-top: 5px;
-  margin: 5px 0;
+  padding-top: 2%;
+  margin: 3% 0;
 }
 
 .discover {
   -ms-flex-item-align: end;
       align-self: flex-end;
-  padding: 40px 0 110px 0;
+  padding: 3% 0;
 }
 .discover p {
   color: #FFF;
-  margin: 5px 74px 14px 0;
+  margin: 1% 10% 4% 0;
 }
 
 .locations {
   text-align: end;
-  padding: 40px 0 80px 0;
+  padding: 3% 0;
 }
 .locations p {
   color: #FFF;
-  margin: 5px 0px 14px 74px;
+  margin: 1% 0 4% 10%;
 }
 
 .pink-silk {
@@ -520,7 +521,7 @@ nav li:hover,
 }
 .pink-silk img {
   position: absolute;
-  top: -60px;
+  bottom: 30px;
   -webkit-box-shadow: 20px 20px #0CADC0;
           box-shadow: 20px 20px #0CADC0;
 }
@@ -530,7 +531,7 @@ nav li:hover,
 }
 .yellow-tape img {
   position: absolute;
-  top: 20px;
+  top: 30px;
   -webkit-box-shadow: -20px 20px #0CADC0;
           box-shadow: -20px 20px #0CADC0;
 }
@@ -541,19 +542,19 @@ nav li:hover,
 }
 
 .bottom-home {
-  padding: 30px 0 100px 0;
+  padding: 2% 0 6% 0;
   text-align: center;
 }
 .bottom-home h3 {
   color: #1A315C;
-  margin-bottom: 5px;
+  margin-bottom: 1%;
 }
 .bottom-home button {
-  margin: 25px;
+  margin: 2%;
 }
 
 .sect1 {
-  padding: 50px 0;
+  padding: 4% 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -592,19 +593,19 @@ nav li:hover,
   background-color: #283f4d;
   color: #FFF;
   width: 102%;
-  margin-top: 300px;
-  padding: 90px 40px 60px 120px;
+  margin-top: 38%;
+  padding: 12% 6% 12% 14%;
   border-right: 11px solid #0CADC0;
   border-bottom: 11px solid #0CADC0;
 }
 .collection-text h2 {
   margin: 0;
-  padding-top: 30px;
+  padding-top: 5%;
 }
 
 .date {
   color: #CCEDFB;
-  margin: 6px 0;
+  margin: 1% 0;
 }
 
 aside {
@@ -612,12 +613,12 @@ aside {
   color: #FFF;
   border-left: 10px solid #283f4d;
   width: 30%;
-  margin: 300px 0 350px 0;
+  margin: 20% 0 25% 0;
 }
 
 .aside-pic {
-  width: 420px;
-  height: 200px;
+  width: 100%;
+  height: 30vh;
   position: relative;
 }
 .aside-pic img {
@@ -629,16 +630,17 @@ aside {
 }
 
 .aside-text {
-  padding-top: 35px;
-  padding-left: 12px;
+  padding-top: 8%;
+  padding-left: 3%;
 }
 .aside-text h3 {
   margin: 0;
-  padding-top: 30px;
+  padding-top: 8%;
 }
 .aside-text p,
 .aside-text ul {
-  margin: 2px;
+  width: 90%;
+  margin: 1% 0;
 }
 .aside-text a {
   color: #FFF;
@@ -652,10 +654,10 @@ aside {
 
 .comment-section {
   width: 60%;
-  padding: 0 0 80px 0;
+  padding: 0 0 5% 0;
 }
 .comment-section h3 {
-  margin: 5px;
+  margin: 1%;
   color: #1E1713;
 }
 
@@ -664,7 +666,7 @@ aside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 30px 0 70px 0;
+  margin: 5% 0 10% 0;
 }
 .comment1 img,
 .comment2 img {
@@ -683,7 +685,7 @@ aside {
 }
 
 .contact-section {
-  padding: 50px 0 70px 0;
+  padding: 3% 0 5% 0;
 }
 
 .container {
@@ -693,23 +695,25 @@ aside {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 20px 0 90px 0;
+  position: relative;
+  margin: 2% 0 5% 0;
 }
 
 .sub-container {
+  width: 70%;
   position: relative;
 }
 
 .submit-box {
   position: absolute;
-  bottom: -40px;
-  left: 50px;
+  bottom: 1%;
+  left: 5%;
 }
 
 .contact-info {
   width: 22%;
-  margin-right: 35px;
-  padding: 30px;
+  margin-right: 5%;
+  padding: 2%;
   color: #1E1713;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -718,6 +722,9 @@ aside {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: space-between;
       -ms-flex-align: space-between;
           align-items: space-between;
@@ -770,13 +777,13 @@ aside {
   background-color: #CCEDFB;
   border: 2px solid #0CADC0;
   resize: none;
-  margin: 30px 0;
-  padding: 30px 0 0 30px;
+  margin: 5% 0;
+  padding: 4% 0 0 4%;
 }
 .comment-box button {
   width: 100%;
-  margin: 10px 0;
-  padding-bottom: 10px;
+  margin: 2% 0;
+  padding-bottom: 2%;
 }
 
 .name-box,
@@ -792,7 +799,7 @@ aside {
 }
 .name-box label,
 .email-box label {
-  margin: 10px 0 0 15px;
+  margin: 3% 0 0 4%;
 }
 .name-box input,
 .email-box input {
@@ -807,7 +814,7 @@ aside {
   -webkit-box-shadow: 18px 18px #0CADC0;
           box-shadow: 18px 18px #0CADC0;
   width: 60%;
-  padding: 50px 60px 40px 60px;
+  padding: 5% 6% 3% 6%;
   border: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -823,12 +830,12 @@ aside {
   background-color: #283f4d;
   border: 2px solid #0CADC0;
   resize: none;
-  margin: 30px 0;
-  padding: 30px 0 0 30px;
+  margin: 4% 0;
+  padding: 4% 0 0 4%;
 }
 .submit-box button {
   width: 100%;
-  margin: 10px 0;
+  margin: 2% 0;
 }
 
 .name-box2,
@@ -844,7 +851,7 @@ aside {
 }
 .name-box2 label,
 .email-box2 label {
-  margin: 10px 0 0 15px;
+  margin: 3% 0 0 4%;
 }
 .name-box2 input,
 .email-box2 input {
@@ -853,6 +860,56 @@ aside {
   border-bottom: 2px solid #0CADC0;
 }
 
+@media (max-width: 1100px) {
+  .learn-box {
+    margin: 5% 2%;
+    padding: 8% 5%;
+  }
+  .learn-box img {
+    margin: 2% 5% 0 0;
+  }
+
+  .box {
+    margin: 10px;
+    width: calc(100% / 2 - 20px);
+  }
+
+  aside {
+    width: 40%;
+    margin: 15% 0 60% 0;
+  }
+
+  .aside-text {
+    padding: 10% 0 0 3%;
+  }
+
+  .comment-section {
+    width: 100%;
+  }
+
+  .container {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .sub-container {
+    width: 100%;
+    margin: 0 4%;
+  }
+
+  .submit-box {
+    position: static;
+  }
+
+  .contact-info {
+    width: 40%;
+    padding: 5%;
+    margin: 0 auto;
+  }
+}
 .home-header {
   background-image: url(../assets/header-home.jpg);
   height: 106vh;

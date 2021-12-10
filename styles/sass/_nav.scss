@@ -1,6 +1,6 @@
 nav {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 2%;
     display: flex;
 
     .logo {
@@ -18,10 +18,12 @@ nav {
         width: 100%;
     }
 
+    // H1 KEPT MOVING WHEN I HOVERED ON LI ELEMENTS. I TRIED TO ADD PADDING AND BOX-SIZING DIRECTLY ON LI, A, AND HOVER TO NO AVAIL. I ADDED A TRANSPARENT BORDER TO LI TO STOP THE SHIFTING
     li {
         text-transform: uppercase;
         list-style: none;
         margin: 0 20px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0);
     }
 
     a {

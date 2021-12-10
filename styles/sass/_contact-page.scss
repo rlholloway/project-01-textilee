@@ -1,31 +1,34 @@
 // ADJUSTING CONTACT BOX AND INFO DIV
 .contact-section {
-    padding: 50px 0 70px 0;
+    padding: 3% 0 5% 0;
 }
 .container {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0 90px 0;
+    position: relative;
+    margin: 2% 0 5% 0;
 }
 
 .sub-container {
+    width: 70%;
     position: relative;
 }
 
 .submit-box {
     position: absolute;
-    bottom: -40px;
-    left: 50px;
+    bottom: 1%;
+    left: 5%;
 
 }
 
 .contact-info {
     width: 22%;
-    margin-right: 35px;
-    padding: 30px;
+    margin-right: 5%;
+    padding: 2%;
     color: $black;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: space-between;
 }
 

@@ -1,6 +1,6 @@
 // FIRST SECTION
 .sect1 {
-    padding: 50px 0;
+    padding: 4% 0;
     display: flex;
     justify-content: space-between;
 }
@@ -30,20 +30,20 @@
     background-color: $dark-green;
     color: $white;
     width: 102%;
-    margin-top: 300px;
-    padding: 90px 40px 60px 120px;
+    margin-top: 38%;
+    padding: 12% 6% 12% 14%;
     border-right: 11px solid $turquoise;
     border-bottom: 11px solid $turquoise;
 
     h2 {
         margin: 0;
-        padding-top: 30px;
+        padding-top: 5%;
     }
 }
 
 .date {
     color: $pale-blue;
-    margin: 6px 0;
+    margin: 1% 0;
 }
 
 aside {
@@ -51,12 +51,12 @@ aside {
     color: $white;
     border-left: 10px solid $dark-green;
     width: 30%;
-    margin: 300px 0 350px 0;
+    margin: 20% 0 25% 0;
 }
 
 .aside-pic {
-    width: 420px;
-    height: 200px;
+    width: 100%;
+    height: 30vh;
     position: relative;
 
     img {
@@ -68,17 +68,18 @@ aside {
 }
 
 .aside-text {
-    padding-top: 35px;
-    padding-left: 12px;
+    padding-top: 8%;
+    padding-left: 3%;
 
     h3 {
         margin: 0;
-        padding-top: 30px;
+        padding-top: 8%;
     }
 
     p,
     ul {
-        margin: 2px;
+        width: 90%;
+        margin: 1% 0;
     }
 
     a {
@@ -95,10 +96,10 @@ aside {
 // SECOND SECTION
 .comment-section {
    width: 60%;
-   padding: 0 0 80px 0;
+   padding: 0 0 5% 0;
 
    h3 {
-       margin: 5px;
+       margin: 1%;
        color: $black;
    }
 }
@@ -106,7 +107,7 @@ aside {
 .comment1,
 .comment2 {
     display: flex;
-    margin: 30px 0 70px 0;
+    margin: 5% 0 10% 0;
 
     img {
         margin: 10px 40px 10px 0;
