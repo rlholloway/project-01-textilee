@@ -11,6 +11,12 @@ nav {
         letter-spacing: 1.7px;
     }
 
+    .fas {
+        color: $dark-blue;
+        font-size: 1.6rem;
+        visibility: hidden;
+    }
+
     ul {
         display: flex;
         justify-content: flex-end;
@@ -30,6 +36,10 @@ nav {
         text-decoration: none;
         color: $black;
     }
+}
+
+ul li a {
+    color: $dark-blue;
 }
 
 nav li:hover,
