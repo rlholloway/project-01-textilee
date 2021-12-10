@@ -990,82 +990,82 @@ aside {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
-}
-.sect1 {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-top: 0%;
-}
 
-.collection {
-  width: 100%;
-  background-color: #283f4d;
-  padding: 0;
-}
+  .sect1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 0%;
+  }
 
-.collection-pic img {
-  position: static;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
+  .collection {
+    width: 100%;
+    background-color: #283f4d;
+    padding: 0;
+  }
 
-.collection-text {
-  width: 100%;
-  margin: 0 auto;
-  padding: 5%;
-  border: none;
-}
-.collection-text h2 {
-  padding-top: 1%;
-}
+  .collection-pic img {
+    position: static;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
 
-aside {
-  width: 100%;
-  margin: 0 auto;
-  padding: 2% 0;
-  border: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+  .collection-text {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5%;
+    border: none;
+  }
+  .collection-text h2 {
+    padding-top: 1%;
+  }
 
-.aside-pic {
-  width: 60%;
-  height: 20vh;
-  margin: 3%;
-  position: static;
-}
+  aside {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2% 0;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 
-.aside-pic img {
-  position: static;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
+  .aside-pic {
+    width: 60%;
+    height: 20vh;
+    margin: 3%;
+    position: static;
+  }
 
-.aside-text {
-  padding: 0 2%;
-  margin: 0 2%;
-  text-align: center;
-}
-.aside-text h3 {
-  padding-top: 1%;
-}
+  .aside-pic img {
+    position: static;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 
-.sub-container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
+  .aside-text {
+    padding: 0 2%;
+    margin: 0 2%;
+    text-align: center;
+  }
+  .aside-text h3 {
+    padding-top: 1%;
+  }
 
-.submit-box {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
+  .sub-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
 
+  .submit-box {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
 @media (max-width: 550px) {
   nav ul {
     overflow: hidden;
