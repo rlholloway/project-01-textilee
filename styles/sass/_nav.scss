@@ -2,6 +2,7 @@ nav {
     width: 100%;
     padding-top: 2%;
     display: flex;
+    justify-content: space-between;
 
     .logo {
         font-family: $main-font;
@@ -9,12 +10,6 @@ nav {
         font-weight: normal;
         line-height: 24px;
         letter-spacing: 1.7px;
-    }
-
-    .fas {
-        color: $dark-blue;
-        font-size: 1.6rem;
-        visibility: hidden;
     }
 
     ul {
@@ -45,4 +40,26 @@ ul li a {
 nav li:hover,
 .logo:hover {
     border-bottom: 2px solid $turquoise;
+}
+
+.fas {
+        color: $dark-blue;
+        font-size: 1.6rem;
+        visibility: hidden;
+    }
+
+    .fas:hover {
+        color: $turquoise;
+    }
+
+.burger-nav {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.burger-button {
+    display: flex;
+    visibility: hidden;
+    background-color: rgba($color: $pale-blue, $alpha: 0.5);
 }

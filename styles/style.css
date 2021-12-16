@@ -343,6 +343,9 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 nav .logo {
   font-family: "Pacifico", cursive;
@@ -350,11 +353,6 @@ nav .logo {
   font-weight: normal;
   line-height: 24px;
   letter-spacing: 1.7px;
-}
-nav .fas {
-  color: #1A315C;
-  font-size: 1.6rem;
-  visibility: hidden;
 }
 nav ul {
   display: -webkit-box;
@@ -384,6 +382,39 @@ ul li a {
 nav li:hover,
 .logo:hover {
   border-bottom: 2px solid #0CADC0;
+}
+
+.fas {
+  color: #1A315C;
+  font-size: 1.6rem;
+  visibility: hidden;
+}
+
+.fas:hover {
+  color: #0CADC0;
+}
+
+.burger-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  visibility: hidden;
+}
+
+.burger-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: hidden;
+  background-color: rgba(204, 237, 251, 0.5);
+}
+
+header {
+  overflow: hidden;
 }
 
 .learn-box {
@@ -1068,13 +1099,17 @@ aside {
 }
 @media (max-width: 550px) {
   nav ul {
-    overflow: hidden;
     display: none;
+  }
+
+  .burger-toggle {
+    visibility: visible;
+    background-color: rgba(204, 237, 251, 0.5);
   }
 
   nav .fas {
     visibility: visible;
-    margin: auto;
+    margin: 1%;
   }
 
   .learn-box {
@@ -1178,6 +1213,7 @@ aside {
 }
 .home-header {
   background-image: url(../assets/header-home.jpg);
+  background-repeat: no-repeat;
   height: 106vh;
 }
 

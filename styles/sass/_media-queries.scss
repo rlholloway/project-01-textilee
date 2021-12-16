@@ -192,13 +192,17 @@
     @media(max-width: 550px) {
     // HOME PAGE
     nav ul {
-        overflow: hidden;
         display: none;
     }
 
+    .burger-toggle {
+        visibility: visible;
+        background-color: rgba($color: $pale-blue, $alpha: 0.5);
+    }
+
     nav .fas {
-        visibility:visible;
-        margin: auto;
+        visibility: visible;
+        margin: 1%;
     }
     
     .learn-box {
