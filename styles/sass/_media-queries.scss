@@ -190,17 +190,7 @@
 }
     // FINAL BREAK POINT
     @media(max-width: 550px) {
-    // HOME PAGE
-    nav ul {
-        overflow: hidden;
-        display: none;
-    }
-
-    nav .fas {
-        visibility:visible;
-        margin: auto;
-    }
-    
+    // HOME PAGE 
     .learn-box {
         flex-direction: column;
         padding: 1% 0;

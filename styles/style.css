@@ -351,11 +351,6 @@ nav .logo {
   line-height: 24px;
   letter-spacing: 1.7px;
 }
-nav .fas {
-  color: #1A315C;
-  font-size: 1.6rem;
-  visibility: hidden;
-}
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -386,6 +381,83 @@ nav li:hover,
   border-bottom: 2px solid #0CADC0;
 }
 
+.hamburger {
+  cursor: pointer;
+  display: none;
+  border: 1px solid #0CADC0;
+  border-radius: 5px;
+  background-color: white;
+  margin: 1%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.hamburger:hover,
+.hamburger:focus {
+  background-color: white;
+  border: 1px solid #0CADC0;
+}
+
+.hamburger div {
+  width: 30px;
+  height: 3px;
+  background-color: #0CADC0;
+  margin: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 800px) {
+  nav {
+    padding-top: 2%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .menu-hide {
+    position: fixed;
+    left: -100%;
+    top: 3.2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    background-color: rgba(246, 245, 245, 0.9);
+    text-align: center;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+  .menu-hide li {
+    margin: 1rem;
+  }
+
+  .menu-hide.active {
+    left: 0;
+  }
+
+  .hamburger {
+    display: block;
+    text-align: end;
+  }
+
+  .active .line-one {
+    -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+            transform: rotate(-45deg) translate(-5px, 6px);
+    background-color: #0CADC0;
+  }
+
+  .active .line-two {
+    opacity: 0;
+  }
+
+  .active .line-three {
+    -webkit-transform: rotate(45deg) translate(-5px, -6px);
+            transform: rotate(45deg) translate(-5px, -6px);
+    background-color: #0CADC0;
+  }
+}
 .learn-box {
   width: 100%;
   padding: 15% 0 5% 0;
@@ -1067,16 +1139,6 @@ aside {
   }
 }
 @media (max-width: 550px) {
-  nav ul {
-    overflow: hidden;
-    display: none;
-  }
-
-  nav .fas {
-    visibility: visible;
-    margin: auto;
-  }
-
   .learn-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
