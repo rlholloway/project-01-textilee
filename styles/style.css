@@ -427,7 +427,7 @@ nav li:hover,
 }
 .gallery-box img {
   margin: 12px;
-  width: calc(100% / 3 - 24px);
+  width: calc(33.3333333333% - 24px);
 }
 
 .boxes {
@@ -442,7 +442,7 @@ nav li:hover,
 
 .box {
   position: relative;
-  width: calc(100% / 2);
+  width: 50%;
 }
 .box a {
   text-decoration: none;
@@ -880,7 +880,7 @@ aside {
 
   .box {
     margin: 10px;
-    width: calc(100% / 2 - 20px);
+    width: calc(50% - 20px);
   }
 
   aside {
