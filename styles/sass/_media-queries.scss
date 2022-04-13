@@ -43,10 +43,13 @@
 
     .submit-box {
         position: static;
+        border: none;
+        box-shadow: none;
+        margin: 0 auto;
     }
 
     .contact-info {
-        width: 40%;
+        width: 50%;
         padding: 5%;
         margin: 0 auto;
     }

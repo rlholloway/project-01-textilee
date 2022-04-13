@@ -316,7 +316,7 @@ button:hover,
 }
 
 .pale-button {
-  background-color: #c5d4f4;
+  background-color: rgb(197, 212, 244);
   color: #1A315C;
 }
 .pale-button:hover {
@@ -488,7 +488,7 @@ nav li:hover,
 }
 
 .gallery {
-  background-color: #283f4d;
+  background-color: rgb(40, 63, 77);
   padding: 5% 0;
 }
 
@@ -544,7 +544,7 @@ nav li:hover,
 }
 
 .bottom-section {
-  background-color: #283f4d;
+  background-color: rgb(40, 63, 77);
 }
 
 .bottom-boxes {
@@ -671,7 +671,7 @@ nav li:hover,
 }
 
 .collection-text {
-  background-color: #283f4d;
+  background-color: rgb(40, 63, 77);
   color: #FFF;
   width: 102%;
   margin-top: 38%;
@@ -690,9 +690,9 @@ nav li:hover,
 }
 
 aside {
-  background-color: #283f4d;
+  background-color: rgb(40, 63, 77);
   color: #FFF;
-  border-left: 10px solid #283f4d;
+  border-left: 10px solid rgb(40, 63, 77);
   width: 30%;
   margin: 20% 0 25% 0;
 }
@@ -706,8 +706,8 @@ aside {
   width: 100%;
   position: absolute;
   bottom: -50px;
-  -webkit-box-shadow: -10px 10px #283f4d;
-          box-shadow: -10px 10px #283f4d;
+  -webkit-box-shadow: -10px 10px rgb(40, 63, 77);
+          box-shadow: -10px 10px rgb(40, 63, 77);
 }
 
 .aside-text {
@@ -857,6 +857,7 @@ aside {
   color: #1A315C;
   background-color: #CCEDFB;
   border: 2px solid #0CADC0;
+  width: 100%;
   resize: none;
   margin: 5% 0;
   padding: 4% 0 0 4%;
@@ -890,11 +891,11 @@ aside {
 }
 
 .submit-box {
-  background-color: #283f4d;
+  background-color: rgb(40, 63, 77);
   color: #FFF;
   -webkit-box-shadow: 18px 18px #0CADC0;
           box-shadow: 18px 18px #0CADC0;
-  width: 60%;
+  width: 90%;
   padding: 5% 6% 3% 6%;
   border: none;
   display: -webkit-box;
@@ -908,7 +909,7 @@ aside {
 }
 .submit-box textarea {
   color: #FFF;
-  background-color: #283f4d;
+  background-color: rgb(40, 63, 77);
   border: 2px solid #0CADC0;
   resize: none;
   margin: 4% 0;
@@ -936,7 +937,7 @@ aside {
 }
 .name-box2 input,
 .email-box2 input {
-  background-color: #283f4d;
+  background-color: rgb(40, 63, 77);
   border: none;
   border-bottom: 2px solid #0CADC0;
 }
@@ -983,10 +984,14 @@ aside {
 
   .submit-box {
     position: static;
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin: 0 auto;
   }
 
   .contact-info {
-    width: 40%;
+    width: 50%;
     padding: 5%;
     margin: 0 auto;
   }
@@ -1073,7 +1078,7 @@ aside {
 
   .collection {
     width: 100%;
-    background-color: #283f4d;
+    background-color: rgb(40, 63, 77);
     padding: 0;
   }
 

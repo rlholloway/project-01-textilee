@@ -12,6 +12,7 @@
         color: $dark-blue;
         background-color: $pale-blue;
         border: 2px solid $turquoise;
+        width: 100%;
         resize: none;
         margin: 5% 0;
         padding: 4% 0 0 4%;
@@ -45,7 +46,7 @@
     background-color: $dark-green;
     color: $white;
     box-shadow: 18px 18px $turquoise;
-    width: 60%;
+    width: 90%;
     padding: 5% 6% 3% 6%;
     border: none;
     display: flex;
